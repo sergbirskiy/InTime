@@ -1,0 +1,37 @@
+table {
+  border-collapse: collapse;
+  border: none;
+  text-align: center;
+  width: 100%;
+}
+.table-head {
+  color: #282b2f;
+  font-size: 18px;
+  font-weight: 600;
+}
+td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+td:nth-child(2n) {
+  width: 25%;
+}
+.table-body tr:nth-child(odd) {
+  background-color: #f8f8f8;
+}
+.table-body {
+  color: #282b2f;
+}
+.table-body a {
+  color: #1976d2;
+  text-decoration: underline;
+  font-style: oblique;
+}
+.tabs-desc {
+  color: #546e7a;
+  margin: 23px 0 98px 0;
+}
+.table-body a:hover {
+  text-decoration: none;
+}

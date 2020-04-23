@@ -1,0 +1,89 @@
+.button {
+  display: inline-block;
+  margin-top: 40px;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid transparent;
+  background-color: #009688;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 17px 0;
+  outline: none;
+  text-transform: none;
+  text-align: center;
+  text-decoration: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.button:hover {
+  background-color: #7bd6cd;
+}
+.button:active {
+  background-color: #009688;
+}
+.button:focus {
+  outline: none;
+}
+
+.button-primary {
+  color: #ffffff;
+  background-color: green;
+}
+
+.button-primary:hover {
+  color: green;
+  background-color: #ffffff;
+  border-color: green;
+}
+.button-danger {
+  color: #ffffff;
+  background-color: red;
+}
+
+.button-danger:hover {
+  color: red;
+  background-color: #ffffff;
+  border-color: red;
+}
+
+.button-large {
+  padding: 22px 64px;
+}
+
+.button-medium {
+  padding: 12px 24px;
+}
+.button-news {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px solid #009688;
+  color: #009688;
+  font-size: 18px;
+  padding: 17px 0;
+  margin-top: 39px;
+  font-weight: 600;
+}
+.button-news:hover {
+  background-color: #8ddad1;
+}
+.button-news:active {
+  background-color: white;
+}
+.button-news::after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 14px;
+  margin-left: 15px;
+  background-image: url("/images/Shape.png");
+  background-size: 16px 14px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: scale(-1, 1);
+}
+.button-news::hover::after {
+  background-color: #8ddad1;
+}

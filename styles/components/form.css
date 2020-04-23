@@ -1,0 +1,135 @@
+.form-control {
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input,
+.select,
+.textarea {
+  width: 100%;
+  border: 2px solid #e0e9f0;
+  background-color: #fff;
+  color: #666;
+  border-radius: 5px;
+  font-size: inherit;
+  padding-left: 20px;
+}
+.input {
+  height: 50px;
+  margin-top: 0;
+}
+.input-aside {
+  margin-bottom: 16px;
+}
+.input:focus,
+.select:focus,
+.textarea:focus,
+#comment:focus {
+  outline: none;
+  background-color: #fff;
+  color: #666;
+  border-color: #009688;
+}
+
+.input:disabled,
+.select:disabled,
+.textarea:disabled {
+  background-color: #f8f8f8;
+  color: #999;
+  border-color: #999;
+}
+
+.input::placeholder,
+.textarea::placeholder,
+#comment::placeholder {
+  color: #999;
+}
+
+.input-danger,
+.input-danger:focus {
+  color: red;
+  border-color: red;
+}
+
+.input-success,
+.input-success:focus {
+  color: green;
+}
+
+.input-blank {
+  background-color: none;
+  border-color: transparent;
+}
+.input-blank:focus {
+  background-color: #e5e5e5;
+  border-style: dashed;
+}
+
+.form-error-message {
+  color: red;
+  position: absolute;
+  bottom: -16px;
+  display: none;
+}
+
+.input:valid:not(:placeholder-shown) {
+}
+
+.input:invalid:not(:placeholder-shown) {
+  border-color: red;
+}
+
+.input:invalid:not(:placeholder-shown) + .form-error-message {
+  display: block;
+}
+
+.form-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  color: #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.form-icon:hover {
+  color: #666;
+}
+
+.form-icon:not(a):not(button):not(input) {
+  pointer-events: none;
+}
+
+.form-icon-flip {
+  right: 26px;
+  left: auto;
+}
+.form-icon-flip img {
+  width: 20px;
+  height: 20px;
+}
+.form-icon:not(.form-icon-flip) ~ .input {
+  padding-left: 40px !important;
+}
+.form-icon-flip ~ .input {
+  padding-right: 70px !important;
+}
+#comment {
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 100%;
+  height: 140px;
+  border: 2px solid #e0e9f0;
+  background-color: #fff;
+  color: #666;
+  border-radius: 5px;
+  font-size: inherit;
+  resize: none;
+  height: 200px;
+}

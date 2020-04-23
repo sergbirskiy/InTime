@@ -1,0 +1,33 @@
+footer {
+  border-top: 1px solid #e0e9f0;
+  color: #282b2f;
+  font-size: 14px;
+  line-height: 38px;
+}
+.footer-icon {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 163px;
+  height: 32px;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-image {
+  margin-bottom: 0;
+}
+.web {
+  height: 32px;
+  width: 32px;
+}
+.insta {
+  height: 20px;
+  width: 20px;
+}
+.face {
+  height: 20px;
+  width: 11px;
+}
+.in {
+  height: 17px;
+  width: 18px;
+}

@@ -1,0 +1,33 @@
+.card {
+}
+
+.card-title {
+}
+
+.card-description {
+  margin: 25px 0 36px 0;
+}
+
+.card-image {
+  height: 200px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.card-link {
+  color: #009688;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.card-first,
+.card-second {
+  border-bottom: 1px solid #e0e9f0;
+}
+.card-first,
+.card-second {
+  padding-bottom: 30px;
+}
+.card-third {
+  padding-bottom: 80px;
+}

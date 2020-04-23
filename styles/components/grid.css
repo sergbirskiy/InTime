@@ -1,0 +1,28 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 85px -30px 0 -30px;
+}
+.grid > .grid-item {
+  padding: 0 30px;
+}
+
+.grid-large {
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+.grid-large .grid-item {
+}
+.grid-medium {
+  margin: 0 -10px;
+}
+.grid-images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.grid-medium-item {
+  padding: 0 10px;
+}
